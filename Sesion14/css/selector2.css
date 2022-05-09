@@ -1,0 +1,11 @@
+#externo{
+ color: aliceblue;
+}
+
+a[href^="mailto"] {
+    color:mediumvioletred;
+}
+
+.interno{
+    color: blue;
+}
