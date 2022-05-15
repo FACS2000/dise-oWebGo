@@ -1,0 +1,35 @@
+body{
+
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+border: 1px solid;
+    
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+    color: aliceblue;
+}
+
+form{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;  
+}
+
+.nombres{
+    display: flex; 
+    margin-right: 10px;
+}
+
+#check{
+    background-color: white;
+    width: 420px;
+    margin-left: -36px;
+}
+
+div{
+    background-color: gray;
+}
