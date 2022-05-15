@@ -1,0 +1,76 @@
+#formulario01{
+    width: 570px;
+}
+h2{
+    background-color: antiquewhite;
+    width: 570px;
+    text-align: center;
+}
+img{
+
+    height: 200px;
+    display: inline-block ;
+    margin-right: 40px;
+}
+
+#coda{
+    margin-left: -30px ;
+margin-bottom: 20px;
+}
+
+#belfast{
+    margin-left: 100px ;
+}
+
+#dlu{
+    margin-left: -80px ;
+}
+
+#dune{
+    margin-left: 70px ;
+}
+#nombre{
+    margin-left: 30px;
+}
+#apellido{
+    margin-left: 20px;
+}
+
+#dni{
+    margin-left: 55px;
+}
+#edad{
+    margin-left: 50px;
+}
+#sexo{
+    margin-left: 50px;
+}
+
+fieldset{
+    background-color: goldenrod;
+}
+.align-center {
+    display: block;
+    margin:  auto;
+    text-align: center;
+}
+legend{
+    background-color: grey;
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+    
+}
+#button{
+    margin-left: 200px;
+}
+body{
+    
+    background-image: url(../img/bg.jpg);
+    background-size:cover ;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+
+    
+}
