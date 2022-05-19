@@ -21,6 +21,9 @@ nav .Inicio{
     margin-left: 20px;
 }
 
+nav .Inicio{
+    background-color: #3AAFA9;
+}
 
 
 /* Encabezado*/
@@ -78,6 +81,7 @@ section img{
     float: right;
     height: 200px;
     margin-top: 3px;
+    margin-left: 10px;
 }
 /* Pie de pagina*/
 footer{
