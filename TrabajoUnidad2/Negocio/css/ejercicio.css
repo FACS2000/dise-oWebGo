@@ -1,0 +1,212 @@
+
+main{
+    color: white;
+    font-family: arial;
+    display: grid;
+}
+.grid{
+    
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 250px 50px 1fr auto auto;
+    grid-template-areas: 
+    "head " 
+    "nav" 
+    "section"  
+    "aside" 
+    "footer";
+
+}
+/* Navegación*/
+
+
+
+
+/* Encabezado*/
+header{
+    grid-area: head;
+    background-color: white;
+    color: black;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 70% 30% auto;
+    grid-template-rows:70% 30% auto;
+    grid-template-areas:
+    "t1 img"
+}
+
+header .t1{
+    grid-area: t1;
+    text-align: left;
+    position: relative;
+    height: auto;
+}
+
+header img{
+    grid-area: img;
+    width: 100%;
+    height: auto;
+}
+
+header h1{
+    font-size: 48px auto;
+}
+/* Contenido*/
+section{
+    display: grid;
+    grid-template-columns:  auto;
+    grid-template-rows: auto;
+    grid-template-areas: "h2 h2" "t1 t2" "t3 t4";
+    
+}
+section div{
+    border: 5px solid;
+    margin: 0px;
+}
+section h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+section p{
+    font-weight: bold;
+    font-size: 20px;
+}
+section h2{
+    grid-area: h2;
+    font-size: xx-large;
+}
+section .t1{
+    grid-area: t1;
+}
+
+section .t2{
+    grid-area: t2;
+}
+
+section .t3{
+    grid-area: t3;
+}
+
+section .t4{
+    grid-area: t4;
+}
+
+/* Pie de pagina*/
+footer{
+    display: grid;
+    grid-template-columns:  40% 30% 30%;
+    grid-template-rows: auto;
+    grid-template-areas: "desc serv redes";
+    
+}
+footer .desc {
+    grid-area: desc;
+    text-align: justify;
+    padding-right: 5px;
+    font-size:  auto;
+}
+footer .servicios p{
+    grid-area: serv;
+    text-align: center;
+    font-weight: bolder;
+}
+footer .Redes p{
+    grid-area: redes;
+    text-align: center;
+    font-weight: bolder;
+}
+
+nav{
+    grid-area: nav;
+    background-color: cornflowerblue;
+}
+
+section{
+    grid-area: section;
+    background-color: rgb(106, 139, 201);
+    color: black;
+}
+
+aside{
+    grid-area: aside;
+    background-color: rgb(105, 169, 185);
+    
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(97, 97, 97);
+}
+@media (max-width:599px){
+    nav div{
+        float: left;
+        width: auto;
+        border-left: 1px solid;
+        height: 50px;
+        text-align: center;
+        padding: 15px 15px 0px;
+     }
+     footer div{
+        float: left;
+        
+        border: 1px solid;
+        
+        text-align: center;
+        
+     }
+     
+}
+@media (min-width:600px) and (max-width:1000px){
+    nav div{
+        float: left;
+        width: 19.78%;
+        border-left: 1px solid;
+        height: 50px;
+        text-align: center;
+        padding: 15px 0px 0px;
+
+    }
+    footer div{
+        float: left;
+        border: 1px solid;
+        
+        text-align: left;
+        
+    }
+    
+    .grid{
+    
+    
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 200px 50px 1fr 120px;
+    grid-template-areas: 
+    "head head " 
+    "nav nav" 
+    "aside section"
+    "footer footer ";
+    
+    }
+}
+@media (min-width:1001px) {
+    .grid{
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas: 
+    "head head head" 
+    "nav section  aside" 
+    "footer footer  footer";
+    }
+    nav div{
+        height: 20%;
+        border-bottom: 1px solid;
+        line-height: 100px ;
+        
+    }
+    footer div{
+        float: left;
+        border: 1px solid;
+        border-bottom: 1px solid;
+        
+        
+    }
+}

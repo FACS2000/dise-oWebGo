@@ -1,0 +1,62 @@
+
+#caja1{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin: 0px;
+}
+
+#caja_enlace{
+    background-color: gray;
+    margin-top: 0px;
+    
+}
+
+div a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-family:Arial ;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+#categoria{
+    color: red;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+#titulo_noticia{
+    font-family:Arial ;
+    margin-top: 0px;
+}
+
+#caja2{
+    float: right;
+    width: 500px;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    
+}
+
+#caja3{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    color: gray;
+    font-family:Arial ;
+    text-align: justify;
+}
+
+#caja4{
+    background-color: rgb(255, 0, 0);
+    float: right;
+    width: 220px;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-family:Arial ;
+}
