@@ -1,0 +1,221 @@
+
+main{
+    color: white;
+    font-family: arial;
+    display: grid;
+}
+.grid{
+    
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 250px 50px 1fr auto auto;
+    grid-template-areas: 
+    "head " 
+    "nav" 
+    "section"  
+    "aside" 
+    "footer";
+}
+/* Navegación*/
+nav .Inicio{
+    margin-left: 20px;
+}
+
+
+
+/* Encabezado*/
+header{
+    grid-area: head;
+    background-color: #17252A;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+    "img t1"
+}
+
+header .t1{
+    grid-area: t1;
+    text-align: left;
+    position: relative;
+    height: auto;
+}
+header .t1 h1{
+font-size: 50px;
+margin-bottom: 0px;
+}
+ div a{
+     text-decoration: none;
+     color: white;
+ }
+
+header img{
+    grid-area: img;
+    height: 200px;
+}
+
+header h1{
+    font-size: 48px auto;
+}
+/* Contenido*/
+section h1{
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Times New Roman';
+    background-color: wheat;
+    width: 150px;
+}
+section div {
+    border: 5px solid;
+    margin: 0px;
+    margin-left: 10px;
+}
+section p{
+    font-size: x-large;
+    text-align: justify;
+}
+section img{
+    float: right;
+    height: 200px;
+    margin-top: 3px;
+}
+/* Pie de pagina*/
+footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+    grid-template-areas: " imgFoot infConFoot SigueFoot EnlacesFoot MenuFoot" 
+    "webFoot webFoot webFoot webFoot webFoot";
+    
+}
+
+footer .imgFoot{
+    grid-area: imgFoot;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+footer .infConFoot {
+    grid-area: infConFoot;
+    
+}
+footer .SigueFoot {
+    grid-area: SigueFoot;
+    
+}
+.SigueFoot li{
+    text-decoration: none;
+}
+footer .EnlacesFoot {
+    grid-area: EnlacesFoot;
+    
+}
+footer .MenuFoot {
+    grid-area: MenuFoot;
+    
+}
+footer .webFoot {
+    grid-area: webFoot;
+    text-align: center;
+    background-color: black;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #2B7A78;
+}
+
+section{
+    grid-area: section;
+    background-color: rgb(106, 139, 201);
+    color: black;
+}
+
+aside{
+    grid-area: aside;
+    background-color: rgb(105, 169, 185);
+    
+}
+aside p{
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+aside li{
+    font-size: 20px;
+    margin-left: 10px;
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(97, 97, 97);
+}
+@media (max-width:599px){
+    nav div{
+        float: left;
+        width: auto;
+        border-left: 1px solid;
+        height: 50px;
+        text-align: center;
+        padding: 15px 15px 0px;
+     }
+     footer div{
+        float: left;
+        
+        border: 1px solid;
+        
+        text-align: center;
+        
+     }
+     
+}
+@media (min-width:600px) and (max-width:1000px){
+    nav div{
+        float: left;
+        width: 19.78%;
+        border-left: 1px solid;
+        height: 50px;
+        text-align: center;
+        padding: 15px 0px 0px;
+
+    }
+    footer div{
+        float: left;
+        border: 1px solid;
+        text-align: left;
+        }
+    
+    .grid{
+       
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 200px 50px 1fr 120px;
+    grid-template-areas: 
+    "head head " 
+    "nav nav" 
+    "aside section"
+    "footer footer ";
+    
+    }
+}
+@media (min-width:1001px) {
+    .grid{
+    grid-template-columns: 4fr  1fr;
+    grid-template-rows: 200px 50px 2fr 1fr;
+    grid-template-areas: 
+    "head head " 
+    "nav nav "
+    "section aside" 
+    "footer footer";
+    }
+
+    nav div{
+        float: left;
+        width: 22%;
+        border-left : 1px solid;
+        border-right : 1px solid;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        
+    }
+
+}
