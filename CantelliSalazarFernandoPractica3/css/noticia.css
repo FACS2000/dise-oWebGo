@@ -68,20 +68,70 @@ section h1{
     background-color: wheat;
     width: 150px;
 }
-section div {
-    border: 5px solid;
+
+
+
+
+#caja1{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: white;
+    font-size: 48px;
     margin: 0px;
-    margin-left: 10px;
+    width: 100%;
 }
-section p{
-    font-size: x-large;
-    text-align: justify;
+#caja_enlace{
+    background-color: gray;
+    margin-top: 0px;
+    border: 1px solid;
 }
-section img{
+section div a {
+
+    text-decoration: none;
+    margin-left: 5%;
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 80%;
+
+}
+#categoria{
+    color: red;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: Arial;
+}
+#caja2{
     float: right;
+    max-width: 500px;
     height: 200px;
+    margin-left: 20px;
+    margin-bottom: 0px;
     margin-top: 3px;
-    margin-left: 10px;
+    margin-right: 20px;
+}
+#caja3{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    color: gray;
+    font-family:Arial ;
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 100%;
+}
+#caja4{
+    background-color: rgb(255, 0, 0);
+    float: right;
+    width: 220px;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-family:Arial ;
+}
+#titulo_noticia{
+    font-family:Arial ;
+    margin-top: 0px;
+    font-size: 200%;
 }
 /* Pie de pagina*/
 footer{
@@ -135,7 +185,7 @@ nav{
 
 section{
     grid-area: section;
-    background-color: rgb(106, 139, 201);
+    background-color: white;
     color: black;
 }
 

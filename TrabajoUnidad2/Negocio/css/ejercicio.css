@@ -56,7 +56,9 @@ section{
     display: grid;
     grid-template-columns:  auto;
     grid-template-rows: auto;
-    grid-template-areas: "h2 h2" "t1 t2" "t3 t4";
+    grid-template-areas: "h2 h2" 
+    "t1 t2" 
+    "t3 t4";
     
 }
 section div{

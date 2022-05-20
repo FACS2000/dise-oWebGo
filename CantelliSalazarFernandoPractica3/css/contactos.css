@@ -21,7 +21,7 @@ nav .Inicio{
     margin-left: 20px;
 }
 
-nav .Inicio{
+nav .Contactos{
     background-color: #3AAFA9;
 }
 
@@ -63,25 +63,50 @@ header h1{
 /* Contenido*/
 section h1{
     font-size: 30px;
-    margin-left: 10px;
+    
     font-family: 'Times New Roman';
-    background-color: wheat;
-    width: 150px;
+    width: 100%;
 }
-section div {
-    border: 5px solid;
-    margin: 0px;
-    margin-left: 10px;
-}
-section p{
-    font-size: x-large;
-    text-align: justify;
-}
-section img{
+.inf{
     float: right;
-    height: 200px;
-    margin-top: 3px;
+    width: 40%;
+}
+.inf p{
+    font-size: 200%;
     margin-left: 10px;
+}
+.inf a{
+    color: black;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+section div {
+    margin: 0px;
+    
+    background-color: none;
+}
+#Contenedor{
+    background-color: wheat;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+float: left;
+}
+#nombre{
+    margin-left: 10px;
+}
+#Email{
+    margin-left: 25px;
+
+}
+input{
+    width: 80%;
+}
+#mensaje{
+    
+    margin-left: 6px;
+    width: 80%;
 }
 /* Pie de pagina*/
 footer{

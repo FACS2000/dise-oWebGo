@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/contactos.css">
+    <link rel="stylesheet" href="../css/factura.css">
     <link rel="shortcut icon" href="../img/f1.jpg" />
 </head>
 <body>
@@ -23,7 +23,7 @@
 
         <!--Navegación-->
 
-        <nav >
+        <nav>
             <div class="Inicio"><a href="../index.html">Inicio</a></div>
             <div class="Curriculum"><a href="../proyectos/curriculum.html">Curriculum</a></div>
             <div class="Proyectos"><a href="../proyectos/Proyectos.html">Proyectos</a></div>
@@ -34,40 +34,86 @@
         <!--Contenido-->
 
         <section class="section">
-            <div class="inf">
-                <p>Información de Contacto</p>
-                <ul>
-                    <li><a href="https://es-la.facebook.com/">Facebook</a></li>
-                    <li><a href="https://twitter.com/?lang=es">Twitter</a></li>
-                    <li><a href="https://www.instagram.com/">Instagram</a></li>
-                    <li><a href="https://www.youtube.com/?hl=ES">Youtube</a></li>
-                </ul>
-            </div>
-            <h1>Para contactarse conmigo</h1>
-            <div id="Contenedor">
-                
-        <br>
-                <form id="formulario01" name="formulario01" method="post" action="data.php" target="_blank">
-        
-                    <label for="nombre" > Nombre</label> 
-                        <input type="text" name="nombre" id="nombre"> <br>
-                <p></p>
-                        <label for="apellido"> Email</label> 
-                        <input type="text" name="Email" id="Email"> <br>
-                
-                <p></p>
-                <label for="nombre" > Nombre</label> 
-                <input type="text" name="nombre" id="nombre"> <br>
-        <p></p>
-        <label for="mensaje" > Mensaje</label>
-        <textarea name="mensaje" id="mensaje"  rows="8"></textarea>
+            <img src="../img/entelFactura.PNG" alt="icono">
+    <h1 style="color: blue;"> <em>Entel S.A</em></h1><br>
+    <table border="1">
+        <caption>Factura detallada</caption>
+    <thead >
+        <tr bgcolor="lightblue">
+            <th colspan="5">Entel S.A. - Marzo 2019</th>
+        </tr>
+    </thead>
+    <!--fin cabecera-->
+    <tfoot>
+        <tr bgcolor="black">
+            <td style="color: white;"  colspan="5" style="font-size: 13px;"><em>Entel le informa que puede llamar al número gratuito 081-808080 para cualquier duda o sugerencia que tenga acerca de esta factura o de nuestro servicios</em></td>
+        </tr>
+    </tfoot>
+    <!--fin de pie de tabla-->
+    <tbody>
+        <tr bgcolor="gray">
+            <th style="color: white;" colspan="5">Detalle de  cuotas</th>
+        </tr>
+        <tr>
+            <th>PERIODO</th>
+            <th>CONCEPTO</th>
+            <th>IMPORTE</th>
+            <th colspan="2">DESCUENTO</th>
+        </tr>
+        <tr>
+            <td rowspan="3" style="text-align: center;">01/03/19 - 01/04/19</td>
+            <td>Servicio de identificacion de llamadas</td>
+            <td style="text-align: center;"> S/ 120.00</td>
+            <td colspan="2" style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td>Linea individual</td>
+            <td style="text-align: center;"> S/ 140.00</td>
+            <td colspan="2" style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td>Bono ciudad</td>
+            <td style="text-align: center;"> S/ 100.00</td>
+            <td colspan="2" style="text-align: center;">0</td> 
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: left;">TOTAL:</td>
+            <td bgcolor="yellow" colspan="3" style="text-align: right; "> <b>S/ 360.00</b> </td>
+        </tr>
+<!--fin de detalle de cuotas-->
+        <tr bgcolor="gray">
+            <th style="color: white;" colspan="5">Detalle de  consumos</th>
+        </tr>
+        <tr>
+            <th>CONCEPTO</th>
+            <th>LLAMADAS</th>
+            <th>DURACION</th>
+            <th>IMPORTE</th>
+            <th>DESCUENTO</th>
+        </tr>
+        <tr>
+            <td>Llamada internacional</td>
+            <td style="text-align: center;">23</td>
+            <td style="text-align: center;"> 10 min 23 s</td>
+            <td style="text-align: center;">S/ 130.00</td>
+            <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td>Llamada metropolitana</td>
+            <td style="text-align: center;">23</td>
+            <td style="text-align: center;"> 10 min 23 s</td>
+            <td style="text-align: center;">S/ 35.00</td>
+            <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: left;">TOTAL:</td>
+            <td bgcolor="yellow" colspan="3" style="text-align: right; "> <b>S/ 165.00</b> </td>
+        </tr>
+    <!--fin de cuerpo de tabla-->
     
-
-                    
-        
-                </form>
-                <br>
-            </div>
+    </tbody>
+    
+    </table>
            
         </section>
 

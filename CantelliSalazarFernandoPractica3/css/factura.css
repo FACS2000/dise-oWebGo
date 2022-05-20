@@ -68,20 +68,21 @@ section h1{
     background-color: wheat;
     width: 150px;
 }
+
 section div {
     border: 5px solid;
     margin: 0px;
     margin-left: 10px;
 }
-section p{
-    font-size: x-large;
-    text-align: justify;
-}
+
 section img{
     float: right;
-    height: 200px;
+    height: 80px;
     margin-top: 3px;
     margin-left: 10px;
+}
+table{
+    background-color: white;
 }
 /* Pie de pagina*/
 footer{

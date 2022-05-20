@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/registro.css">
     <link rel="shortcut icon" href="../img/f1.jpg" />
 </head>
 <body>
@@ -13,7 +13,7 @@
         <!--Encabezado-->
         <header class="header">
             
-                <img src="img/f1.jpg" alt="">
+                <img src="../img/f1.jpg" alt="">
             
             <div class="t1">
                 <h1>Cantelli Salazar Fernando Antonio</h1><br>
@@ -24,34 +24,49 @@
         <!--Navegación-->
 
         <nav>
-            <div class="Inicio"><a href="index.html">Inicio</a></div>
-            <div class="Curriculum"><a href="proyectos/curriculum.html">Curriculum</a></div>
-            <div class="Proyectos"><a href="proyectos/Proyectos.html">Proyectos</a></div>
-            <div class="Contactos"><a href="proyectos/Contactos.html">Contactos</a></div>
+            <div class="Inicio"><a href="../index.html">Inicio</a></div>
+            <div class="Curriculum"><a href="../proyectos/curriculum.html">Curriculum</a></div>
+            <div class="Proyectos"><a href="../proyectos/Proyectos.html">Proyectos</a></div>
+            <div class="Contactos"><a href="../proyectos/Contactos.html">Contactos</a></div>
             
         </nav>
 
         <!--Contenido-->
 
         <section class="section">
-            <h1>NOTICIAS</h1>
-            <div>
-                <img src="img/not1.webp" alt="noticia1">
-                <h2>Fumes from rockets could harm human health as well as Earth's climate</h2>
-                
-                <p>
-                    The increase in rocket launches by commercial space companies such as Elon Musk's SpaceX, Jeff Bezos' Blue Origin, and Richard Branson's Virgin Galactic "could have a significant cumulative effect on climate," the study said. This is because of the amount of carbon gases and nitrogen oxides being produced with each launch, the study said.
-                </p>
-               
+        
+            <div id="Contenedor">
+                <h1>Nuevo Usuario</h1>
+        
+                <form id="formulario01" name="formulario01" method="post" action="data.php" target="_blank">
+        
+                    <input class="datos" type="submit" value="Registrate con Facebook">
+                    <input class="datos" type="submit" value="Registrate con Google">
+        
+                    <p>O registrate con:</p>
+        
+                    <div class="nombres">
+                        <input placeholder="Nombre" type="text" name="Nombre" id="nombre" >
+        
+                        <input placeholder="Apellidos" type="text" name="Apellido" id="apellido" >
+        
+                    </div>
+                    <p></p>
+                    <input placeholder="Correo electronico" type="text" name="correo" class="datos" >
+                    <p></p>
+                    <input placeholder="Contraseña" type="text" name="contraseña" class="datos" >
+                    <p></p>
+        
+                    <div id="check">
+                        <input type="checkbox">Al crear esta cuenta acepta nuestros <strong>Terminos y condiciones</strong>
+                    </div>
+                    <p></p>
+                    <input type="submit" value="Enviar" id="boton">
+                    
+        
+                </form>
+                <br>
             </div>
-            <div>
-                <img src="img/noticia2.png" alt="noticia2">
-                <h2>Metabolic diversity drives cancer cell invasion</h2>
-                <p>
-                    Cancer becomes life-threatening when cells in the initial (primary) tumour spread and grow in distant organs, a process termed metastasis. Metastasis is inefficient — only a subset of cells in a primary tumour can invade the bloodstream, survive in the hostile foreign environments of the circulatory system and distant organs, and manage to resume growth in alien tissues.
-                </p>
-            </div>
-           
         </section>
 
         <!--Aside-->
@@ -60,10 +75,10 @@
             <div>
                 <p>Menú</p>
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="proyectos/curriculum.html">Curriculum</a></li>
-                    <li><a href="proyectos/Proyectos.html">Proyectos</a></li>
-                    <li><a href="proyectos/Contactos.html">Contactos</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../proyectos/curriculum.html">Curriculum</a></li>
+                    <li><a href="../proyectos/Proyectos.html">Proyectos</a></li>
+                    <li><a href="../proyectos/Contactos.html">Contactos</a></li>
                 </ul>
             </div>
             <div>
@@ -81,7 +96,7 @@
         </aside>
         <footer>
 
-            <img src="img/f1.jpg" alt="foto" class="imgFoot">
+            <img src="../img/f1.jpg" alt="foto" class="imgFoot">
             
             
             </div>
@@ -112,10 +127,10 @@
             <div class="MenuFoot">
                 <p>Menú</p>
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="proyectos/curriculum.html">Curriculum</a></li>
-                    <li><a href="proyectos/Proyectos.html">Proyectos</a></li>
-                    <li><a href="proyectos/Contactos.html">Contactos</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../proyectos/curriculum.html">Curriculum</a></li>
+                    <li><a href="../proyectos/Proyectos.html">Proyectos</a></li>
+                    <li><a href="../proyectos/Contactos.html">Contactos</a></li>
                 </ul>
             </div>
             <div class="webFoot"><p><strong>WebMaster: </strong> Cantelli Salazar Fernando Antonio</p></div>
