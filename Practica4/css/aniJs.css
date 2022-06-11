@@ -1,0 +1,30 @@
+header{
+    background-color: blue;
+    width: 60%;
+    height: 200px;
+    font-size: 50px;
+}
+#main{
+    background-color: yellow;
+    width: 60%;
+    height: 200px;
+    font-size: 50px;
+}
+footer{
+    background-color: green;
+    width: 60%;
+    height: 200px;
+    font-size: 50px;
+}
+#flipInY{
+    background-color: blue;
+    width: 60%;
+    height: 200px;
+    font-size: 50px;
+}
+#container{
+    background-color: yellow;
+    width: 60%;
+    height: 200px;
+    font-size: 50px;
+}
