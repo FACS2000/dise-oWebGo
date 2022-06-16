@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/corazon.css">
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+
 </head>
 <body>
-    <div class="corazon">
-        <div class="banda"></div>
+    <div class="corazon-banda " data-anijs="if: click, do: $toggleClass circulo ">
+        <div id="banda" class="banda" data-anijs=" if: click, do: $remove   "> Click para eliminar</div>
     </div>
+
+
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+  
+  <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
 </body>
 </html>

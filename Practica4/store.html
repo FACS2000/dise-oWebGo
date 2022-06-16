@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro De Compras</title>
+    <link rel="stylesheet" href="css/carro.css" />
+    
+</head>
+<body>
+    <header class="main-header">
+
+        <h1 class="store-name ">Tienda Actividad</h1>
+    </header>
+    <section class="container">
+        <h2 class="section-header">Frutas</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Manzana</span>
+                <img class="shop-item-image" src="img/manzana.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$2.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar a carro</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Pera</span>
+                <img class="shop-item-image" src="img/pera.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$3.00</span>
+                    <button class="btn btn-primary shop-item-button"type="button">Agregar a carro</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Platano</span>
+                <img class="shop-item-image" src="img/platano.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar a carro</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Naranja</span>
+                <img class="shop-item-image" src="img/naranja.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$3.50</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar a carro</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Verduras</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Lechuga</span>
+                <img class="shop-item-image" src="img/lechuga.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$0.90</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar a carro</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Zanahoria</span>
+                <img class="shop-item-image" src="img/zanahoria.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$1.20</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar a carro</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Carro de compras</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Producto</span>
+            <span class="cart-price cart-header cart-column">Precio</span>
+            <span class="cart-quantity cart-header cart-column">Cantidad</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Comprar</button>
+    </section>
+
+    <script src="js/store.js" async></script>
+</body>
+</html>

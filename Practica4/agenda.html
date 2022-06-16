@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/agendav2.css">
+    <link rel="stylesheet" href="css/agenda.css">
 </head>
 
-<body onload="actualizaDatos()">
+<body onload="actualizarDatos()">
     <div id="contenedor">
         <header>
             <h3>Mi agenda de contactos</h3>
@@ -20,7 +20,9 @@
 
             <input type="text" placeholder="Nombre" name="nombre" id="nombre"> <br> <br>
             <span>Num Celular: </span>
-            <input type="text" placeholder="Movil" name="celular" id="celular">
+            <input type="text" placeholder="Movil" name="celular" id="celular"><br> <br>
+            <span>e-mail: </span>
+            <input type="text" placeholder="e-mail" name="email" id="email">
         </form>
         <hr>
         <div>
@@ -30,10 +32,12 @@
             <button type="button" onclick="eliminarTodo()"> Eliminar Todos</button>
         </div>
         <hr>
-        <span class="titu">Nombre</span> <span class="titu">Celular</span><br>
+        <span class="titu" id="nomt">Nombre</span> 
+        <span class="titu" id="celt">Celular</span>
+        <span class="titu" id="emailt">e-mail</span><br>
         <ul id="contactos"></ul>
     </div>
-    <script type="text/javascript" src="js/agendav2.js"></script>
+    <script type="text/javascript" src="js/agenda.js"></script>
 </body>
 
 </html>
