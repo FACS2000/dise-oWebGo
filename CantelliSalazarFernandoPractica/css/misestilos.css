@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    background-color: #292b2c;
+}
+
+#cover{
+    background: #222 url(../img/pug.webp) center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+#cover-texto{
+    width: 100%;
+}
+
+.list-group{
+ float: left;
+}
+
+#carouselExampleControls{
+    float: left;
+}
+.card-img-top{
+    height: 450px;
+}
+#acercade{
+    color: white;
+    padding-left: 10px;
+}
+hr{
+    color: white;
+}
+
+.RP{
+    text-decoration: none;
+    font-weight: bolder;
+    color: greenyellow;
+}

@@ -1,0 +1,57 @@
+
+span{
+    width: 120px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+    font-size: larger;
+}
+button{
+    margin-left: 4px;
+}
+.nom{
+    background-color: #48abfc;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+}
+#nomt{
+    margin-left: 3px;
+    width: 20%;
+}
+#celt{
+    width: 25%;
+    
+}
+#emailt{
+    width: 50%;
+}
+.titu{
+    background-color: #0d8bf3;
+    color: white;
+    border-left: 1px solid #0d8bf3;
+}
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#contenedor{
+    width: 450px;
+    background-color: rgb(165, 156, 156);
+    margin-left: 35%;
+    margin-right: 50%;
+    margin-bottom: 2%;
+}
+h3{
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    text-align: center;
+}
+.aghr{
+    background-color: transparent;
+    color: black;
+}
